@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.navBarDiv {
+  border: 2px solid black;
+  text-align: center;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.inline-block {
+  display: inline-block;
+}
+#logInBtn {
+
+}
+.border {
+  border: 1px solid black;
+}
+#tableStartPage {
+  height: 400px;
+  width: 805px;
+  font-size: 20px;
+  margin: 50px auto;
+}
+.font-size {
+  font-size: 25px;
+}
+#contentMainPage {
+  xtext-align: center;
+}
