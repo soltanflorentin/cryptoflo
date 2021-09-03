@@ -46,7 +46,8 @@ code {
 .logIn-div {
   width: 300px;
   border: 1px solid rgb(223, 219, 219);
-  position: fixed;
+  position: absolute;
   top: 107px;
   right: 15px;
+  display: none;
 }

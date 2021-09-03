@@ -1,11 +1,8 @@
 
-import {AgGridColumn, AgGridReact} from 'ag-grid-react';
 
-import 'ag-grid-community/dist/styles/ag-grid.css';
-import 'ag-grid-community/dist/styles/ag-theme-alpine.css';
 import { useEffect, useState } from 'react';
 
-const TestTable = () => {
+const TestTable2 = () => {
         const [coin1, setCoin1] = useState("coin1");
         const [coin2, setCoin2] = useState("coin2");
         const [coin3, setCoin3] = useState("coin3");
@@ -94,24 +91,41 @@ const TestTable = () => {
     })
    }, [])
 
-
  
    
    return (
-       <div className="ag-theme-alpine" id="tableStartPage">
-           <AgGridReact 
-            rowData={rowData}  
-            rowSelection="single">
-               <AgGridColumn field="coin" sortable= {true} filter={true} ></AgGridColumn>
-               <AgGridColumn field= "24/h" sortable= {true} cellStyle={(params) => {
-                   return params.value < 0 ? {background: "#FF7F7F"} : {background: "lightGreen"};
-                  
-               }}></AgGridColumn>
-               <AgGridColumn field="price" sortable= {true} ></AgGridColumn>
-               <AgGridColumn field="marketCap" sortable= {true} ></AgGridColumn>
-           </AgGridReact>
+       <div className="" id="tableStartPage">
+           <table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
        </div>
    );
 };
 
-export default TestTable;
+export default TestTable2;
