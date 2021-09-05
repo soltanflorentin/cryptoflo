@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/cryptoflo/static/css/main.4fd33542.chunk.css",
+    "main.js": "/cryptoflo/static/js/main.dbcebc84.chunk.js",
+    "main.js.map": "/cryptoflo/static/js/main.dbcebc84.chunk.js.map",
+    "runtime-main.js": "/cryptoflo/static/js/runtime-main.a35fdcc5.js",
+    "runtime-main.js.map": "/cryptoflo/static/js/runtime-main.a35fdcc5.js.map",
+    "static/css/2.2964def7.chunk.css": "/cryptoflo/static/css/2.2964def7.chunk.css",
+    "static/js/2.6d820b40.chunk.js": "/cryptoflo/static/js/2.6d820b40.chunk.js",
+    "static/js/2.6d820b40.chunk.js.map": "/cryptoflo/static/js/2.6d820b40.chunk.js.map",
+    "static/js/3.8fcfa48c.chunk.js": "/cryptoflo/static/js/3.8fcfa48c.chunk.js",
+    "static/js/3.8fcfa48c.chunk.js.map": "/cryptoflo/static/js/3.8fcfa48c.chunk.js.map",
+    "index.html": "/cryptoflo/index.html",
+    "static/css/2.2964def7.chunk.css.map": "/cryptoflo/static/css/2.2964def7.chunk.css.map",
+    "static/css/main.4fd33542.chunk.css.map": "/cryptoflo/static/css/main.4fd33542.chunk.css.map",
+    "static/js/2.6d820b40.chunk.js.LICENSE.txt": "/cryptoflo/static/js/2.6d820b40.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a35fdcc5.js",
+    "static/css/2.2964def7.chunk.css",
+    "static/js/2.6d820b40.chunk.js",
+    "static/css/main.4fd33542.chunk.css",
+    "static/js/main.dbcebc84.chunk.js"
+  ]
+}
