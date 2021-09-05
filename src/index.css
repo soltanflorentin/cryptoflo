@@ -31,13 +31,13 @@ code {
   border: 1px solid black;
 }
 #tableStartPage {
-  height: 400px;
+  height: 500px;
   width: 805px;
-  font-size: 20px;
+  font-size: 15px;
   margin: 50px auto;
 }
 .font-size {
-  font-size: 25px;
+  font-size: 15px;
 }
 #contentMainPage {
   xtext-align: center;
@@ -49,5 +49,9 @@ code {
   position: absolute;
   top: 107px;
   right: 15px;
-  display: none;
+  xdisplay: none;
+}
+
+.logoImg {
+  height: 30px;
 }
